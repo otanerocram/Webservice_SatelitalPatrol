@@ -12,11 +12,11 @@
 	date_default_timezone_set('America/Lima');
 
 	// Parametros de Configuracion BD
-	$db_server	= 'flotaprosegur.com';
+	$db_server	= 'localhost';
 	$db_user	= 'gts';
-	$db_pass	= 'blgzN2F1MHl3ME1MbE41MktF';
+	$db_pass	= 'gts_pass';
 	$db_name	= 'gts';
-	$db_port	= 2534;
+	$db_port	= 3306;
 
 	$conexion 		= @new mysqli($db_server, $db_user, $db_pass, $db_name, $db_port);
 
